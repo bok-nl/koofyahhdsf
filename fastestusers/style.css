@@ -1,0 +1,60 @@
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column; /* Maintain column layout */
+    align-items: flex-start; /* Align items to the left */
+    padding: 20px;
+    background-color: #333;
+    margin: 0;
+}
+
+.fastest-user {
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+    font-size: 19px;
+    color: white;
+    margin-top: 10px;
+    margin-bottom: 5px;
+    margin-left: 77px;
+}
+
+.profile-container {
+    display: flex;
+    align-items: center;
+}
+
+.profile-image {
+    width: 70px;
+    height: 70px;
+    margin-right: 10px;
+    object-fit: cover;
+}
+
+.profile-info {
+    display: flex;
+    flex-direction: column;
+}
+
+.channel-name {
+    font-size: 20px;
+    margin: 0;
+    color: white;
+    line-height: 1.1;
+}
+
+.subscriber-count {
+    font-size: 22px;
+    transition: color 1s;
+    color: white;
+    margin-top: 5px;
+    font-family: 'Roboto', sans-serif;
+    font-weight: 900;
+}
+
+.growing {
+    color: green;
+}
+
+.declining {
+    color: red;
+}
